@@ -1,0 +1,83 @@
+.cabeçalho{
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+     margin-left: 420px;
+     margin-right: 430px;
+     border-bottom: 1px solid rgb(211, 206, 206);
+}
+
+.class-esquerda a{
+     padding-left: 25px;
+     color: grey;
+     text-decoration: none;
+}
+
+.menu-itens{
+     margin-top: -20px;
+     padding-left: 50px;
+}
+
+.class-esquerda{
+     margin-left: 50px;
+}
+
+.class-esquerda img{
+     margin-left: -120px;
+
+}
+
+.class-direita{
+     padding-left: 420px;
+     
+}
+
+.carrinho-cabeçalho{
+     padding-right: 22px;
+     margin-bottom: 10px;
+}
+
+.perfil{
+     margin-right: -150px;
+}
+
+/*...................................*/
+.corpo-projeto{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+}
+/*...................................*/
+
+.fotos-produtos{
+     margin-top: 150px;
+}
+
+.foto-principal img{
+     border-radius: 5px;
+}
+
+.fotos-secundarias{
+     margin-top: 15px;
+}
+
+.fotos-secundarias img{
+     border-radius: 5px;
+}
+/*...................................*/
+.class-information{
+     margin-top: 150px;
+     margin-left: 100px;
+}
+
+/*...................................*/
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+     margin-top: 20px;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
