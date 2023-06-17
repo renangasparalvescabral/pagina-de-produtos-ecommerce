@@ -6,32 +6,72 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/buy-now.webp">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!--
+      ## Layout
 
+  The designs were created to the following widths:
+
+  - Mobile: 375px
+  - Desktop: 1440px
+
+  ## Colors
+
+  ### Primary
+
+  - Orange: hsl(26, 100%, 55%)
+  - Pale orange: hsl(25, 100%, 94%)
+
+  ### Neutral
+
+  - Very dark blue: hsl(220, 13%, 13%)
+  - Dark grayish blue: hsl(219, 9%, 45%)
+  - Grayish blue: hsl(220, 14%, 75%)
+  - Light grayish blue: hsl(223, 64%, 98%)
+  - White: hsl(0, 0%, 100%)
+  - Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%)
+
+  ## Typography
+
+  ### Body Copy
+
+  - Font size (paragraph): 16px
+
+  ### Font
+
+  - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+  - Weights: 400, 700
+
+  -->
   
 
 </head>
 <body>
 
     <header class="cabeçalho">
-      
+    
       <div class="class-esquerda">
         <img src="./images/logo - sneakers.svg">
-        <div class="menu-itens">
-          <a href="Collections">Collections</a>  
-          <a href="Men">Men</a>
-          <a href="Women">Women</a>
-          <a href="About">About</a>
-          <a href="Contact">Contact</a>
-        </div>
+          <div class="menu-itens">
+            <a href="Collections">Collections</a>  
+            <a href="Men">Men</a>
+            <a href="Women">Women</a>
+            <a href="About">About</a>
+            <a href="Contact">Contact</a>
+          </div>
       </div>
 
       <div class="class-direita">  
         <img class="carrinho-cabeçalho" src="./images/icon-carrinho.svg" width="15">
         <img class="perfil" src="./images/personagem.png" width="35">
       </div>
+
     </header>  
 
-    <main class="corpo-projeto">
+
+  <main class="corpo-projeto">
 
     <div class="fotos-produtos">
       <div class="foto-principal">
@@ -46,36 +86,36 @@
       </div>  
     </div>
 
+
     <div class="class-information">
-       <h3>Sneaker Company</h3>
+       <h3>SNEAKER COMPANY</h3>
 
-       <h1>Fall Limited Edition Sneakers</h1>
+       <h1>Fall Limited Edition<br /> Sneakers</h1>
 
-       <p>These low-profile sneakers are your perfect casual wear<br>
+       <p class="text-information">These low-profile sneakers are your perfect casual wear<br>
         companion. Featuring a durable rubber outer sole, they’ll<br>
         withstand everything the weather can offer.
        </p>
 
-
-      <div>
-        <p>$125.00</p> 
-        <p>50%</p>
-        <p>$250.00</p>
+      <div class="valores">
+        <p class="valor-principal">$125.00</p> 
+        <p class="desconto">50%</p>
       </div>
+        <p class="valor-antigo">$250.00</p>
+      
     
-    
-    <div>  
-        <div>
-          <img src="./images/icon-traço de menos laranja.svg">  
-          <p> 0 </p>
-          <img src="./images/icon- seta + laranja.svg">
-        </div>
+      <div class="numeracao">  
+          <div class="quantidades">
+            <img class="sinal-menos" src="./images/icon-traço de menos laranja.svg">  
+            <p> 0 </p>
+            <img class="sinal-mais" src="./images/icon- seta + laranja.svg">
+          </div>
 
-        <div>
-          <img src="./images/icon-carrinho.svg">
-          <p>Add to cart</p>
-        </div>
-    </div>
+          <div class="add-car">
+            <img src="./images/icon-carrinho.svg">
+            <p>Add to cart</p>
+          </div>
+      </div>
     
     </div>
       
