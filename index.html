@@ -10,6 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <!--
+
+  ATALHO PARA CONSTRUÇÃO DO DOCTYPE HTML
+  
+  "! mais o enter"
+  
       ## Layout
 
   The designs were created to the following widths:
@@ -50,23 +55,22 @@
 </head>
 <body>
 
-    <header class="cabeçalho">
-    
-      <div class="class-esquerda">
-        <img src="./images/logo - sneakers.svg">
-          <div class="menu-itens">
-            <a href="Collections">Collections</a>  
-            <a href="Men">Men</a>
-            <a href="Women">Women</a>
-            <a href="About">About</a>
-            <a href="Contact">Contact</a>
-          </div>
-      </div>
+    <header>
 
-      <div class="class-direita">  
-        <img class="carrinho-cabeçalho" src="./images/icon-carrinho.svg" width="15">
-        <img class="perfil" src="./images/personagem.png" width="35">
-      </div>
+      <div class="container-header">
+          <div class="header-esquerdo">
+              <img src="./images/logo - sneakers.svg">
+              <a href="Collections">Collections</a>
+              <a href="Men">Men</a>
+              <a href="Women">Women</a>
+              <a href="About">About</a>
+              <a href="Contact">Contact</a>
+          </div>
+          <div class="header-direito">
+              <img class="carrinho-cabeçalho" src="./images/icon-carrinho.svg" width="15">
+              <img class="perfil" src="./images/personagem.png" width="35">
+          </div>
+      </div> 
 
     </header>  
 
@@ -75,14 +79,14 @@
 
     <div class="fotos-produtos">
       <div class="foto-principal">
-        <img src="./images/image-product-1.jpg" width="412">
+        <img src="./images/image-product-1.jpg" width="372">
       </div>
 
       <div class="fotos-secundarias">
-        <img src="./images/image-product-1-thumbnail.jpg" width="100">
-        <img src="./images/image-product-2-thumbnail.jpg" width="100">
-        <img src="./images/image-product-3-thumbnail.jpg" width="100">
-        <img src="./images/image-product-4-thumbnail.jpg" width="100">
+        <a href="./images/image-product-1-thumbnail.jpg" class="bt-1"><img src="./images/image-product-1-thumbnail.jpg" width="90"></a>
+        <a href="./images/image-product-2-thumbnail.jpg" class="bt-2"><img src="./images/image-product-2-thumbnail.jpg" width="90"></a>
+        <a href="./images/image-product-3-thumbnail.jpg" class="bt-3" ><img src="./images/image-product-3-thumbnail.jpg" width="90"></a>
+        <a href="./images/image-product-4-thumbnail.jpg" class="bt-4"><img src="./images/image-product-4-thumbnail.jpg" width="90"></a>
       </div>  
     </div>
 
@@ -106,14 +110,20 @@
     
       <div class="numeracao">  
           <div class="quantidades">
-            <img class="sinal-menos" src="./images/icon-traço de menos laranja.svg">  
+            <button class="btn-menos">
+              <img class="sinal-menos" src="./images/icon-traço de menos laranja.svg">
+            </button>    
             <p> 0 </p>
-            <img class="sinal-mais" src="./images/icon- seta + laranja.svg">
+            <button class="btn-mais">
+              <img class="sinal-mais" src="./images/icon- seta + laranja.svg">
+            </button>  
           </div>
 
           <div class="add-car">
-            <img src="./images/icon-carrinho.svg">
-            <p>Add to cart</p>
+            <button class="btn-addcar">
+              <img class="carrinho-compra" src="./design/car_compra-removebg-preview.png">
+              <p class="adicionar">Add to cart</p>
+            </button>  
           </div>
       </div>
     
@@ -121,11 +131,12 @@
       
   </main>  
 
+  <!--
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
     target="_blank">Frontend Mentor</a>. 
-    Coded by<a href="#">Your Name Here</a>.
+    Coded by<a href="#">Renan Gaspar</a>.
   </div>
-
+  -->
 </body>
 </html>

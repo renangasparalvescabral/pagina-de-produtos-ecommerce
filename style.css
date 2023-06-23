@@ -1,54 +1,39 @@
-.cabeçalho{
+body{
+     box-sizing: border-box;
+}
+
+.container-header{
      display: flex;
-     justify-content: center;
+     align-items: center;
+     justify-content: space-evenly;
+     border-bottom: 1px solid hsl(240, 6%, 83%);
      padding: 30px;
-     margin-left: 420px;
-     margin-right: 430px;
-     border-bottom: 1px solid rgb(211, 206, 206);
-}
-
-.class-esquerda a{
-     padding-left: 25px;
-     color: grey;
-     text-decoration: none;
-}
-
-.menu-itens{
-     margin-top: -20px;
-     padding-left: 50px;
-}
-
-.class-esquerda{
-     margin-left: 50px;
-}
-
-.class-esquerda img{
-     margin-left: -120px;
-
-}
-
-.class-direita{
-     padding-left: 420px;
-     
-}
-
-.carrinho-cabeçalho{
-     padding-right: 22px;
-     margin-bottom: 10px;
-}
-
-.perfil{
-     margin-right: -150px;
-}
-
-/*...................................*/
-.corpo-projeto{
-     display: flex;
-     justify-content: center;
-     align-content: center;
 }
 
 /*.............Corpo Esquerdo........*/
+
+
+.header-esquerdo a{
+     color: hsl(240, 1%, 53%);
+     text-decoration: none;
+     margin-left: 20px;
+     padding-bottom: 32px;
+
+}
+
+.header-esquerdo a{
+     content: " ";
+     width: 0%;
+     height: 4px;
+     bottom: 0px;
+
+}
+
+.header-esquerdo a:hover{
+     width: 100%;
+     transition: 0.2s;
+     border-bottom: 5px solid hsl(26, 100%, 55%);
+}
 
 .fotos-produtos{
      margin-top: 150px;
@@ -59,20 +44,72 @@
 }
 
 .fotos-secundarias{
-     margin-top: 15px;
+     margin-top: 10px;
+     border-width: 0px;
+     padding: 0px;
 }
-
 .fotos-secundarias img{
      border-radius: 5px;
 }
+
+.bt-1{
+     border-width: 0px;
+     padding: 0px;
+     cursor: pointer;
+}
+.bt-1 img{
+     border-radius: 5px;
+}
+.bt-2{
+     border-width: 0px;
+     padding: 0px;
+     cursor: pointer;
+}
+.bt-2 img{
+     border-radius: 5px;
+}
+.bt-3{
+     border-width: 0px;
+     padding: 0px;
+     cursor: pointer;
+}
+.bt-3 img{
+     border-radius: 5px;
+}
+.bt-4{
+     border-width: 0px;
+     padding: 0px;
+     cursor: pointer;
+}
+.bt-4 img{
+     border-radius: 5px;
+}
 /*............Corpo Direito.............*/
+
+.header-direito{
+     display: flex;
+     align-items: center;
+}
+
+.header-direito .carrinho-cabeçalho{
+     margin-right: 25px;
+}
+
+
+/*...................................*/
+.corpo-projeto{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+}
+
 .class-information{
-     margin-top: 150px;
+     margin-top: 190px;
      margin-left: 100px;
 }
 
 .class-information h3{
-     color: hsl(26, 100%, 55%) ;
+     color: hsl(26, 100%, 55%);
      font-family: 'Kumbh Sans', sans-serif;
      font-weight: 700;
      font-size: 12px;
@@ -81,10 +118,11 @@
 .class-information h1{
      font-family: 'Kumbh Sans', sans-serif;
      font-weight: 700;
+     font-size: 40px;
 }
 
 .text-information{
-     font-size: 14px;
+     font-size: 15px;
      font-family: 'Kumbh Sans', sans-serif;
      font-weight: 400;
      line-height: 20px;
@@ -120,7 +158,7 @@
 }
 
 .valor-antigo{
-     color: hsl(240, 1%, 53%);
+     color: hsl(240, 2%, 72%);
      font-family: 'Kumbh Sans', sans-serif;
      font-weight: 700;
      font-size: 10px;
@@ -130,9 +168,9 @@
 
 .numeracao{
      display: flex;
-     background-color: aqua;
      align-content: center;
      align-items: center;
+     margin-top: 25px;
 }
 
 .quantidades{
@@ -141,19 +179,74 @@
      align-items: center;
      align-content: center;
      background-color: hsl(240, 13%, 91%);
-     width: 50px;
-     height: 15px;
-     padding: 5px 5px;
+     width: 80px;
+     height: 20px;
+     padding: 10px 10px;
+     border-radius: 5px;
+}
 
+.btn-menos{
+     border-width: 0px;
+     padding: 0px;
+     cursor: pointer;
+     background-color: hsl(240, 13%, 91%);
 }
 
 .sinal-menos{
+     margin-bottom: 2px;
+}
+
+.btn-mais{
+     border-width: 0px;
+     padding: 0px;
+     cursor: pointer;
+     background-color: hsl(240, 13%, 91%);
+}
+
+.sinal-mais{
+     margin-top: 2px;
+}
+
+.btn-addcar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+     background-color:hsl(26, 100%, 55%);
+     margin-left: 20px;
+     width: 150px;
+     height: 40px;
+     border-radius: 5px;  
+     cursor: pointer;
+     border-width: 0px;
+}
+
+.carrinho-compra{
+     width: 17px;
+     height: 17px;
+}
+
+.adicionar{
+     color: white;
+     font-size: 12px;
+     font-family: 'Kumbh Sans', sans-serif;
+     font-weight: 400;
+     padding-left: 5px;
+}
+
+/*.......Responsive designer...........
+@media (max-width: 992px){
+     .class-esquerda .menu-itens{
+          display: none;
+     }
      
 }
 
-.add-car{
-     display: flex;
+.class-esquerda .btn-bars{
+     display: block;
 }
+
+..*/
 
 /*.............Footer...................*/
 
