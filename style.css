@@ -1,3 +1,9 @@
+body{
+     width: 100vw;
+     min-height: 100vh;
+
+}
+
 header{
      display: flex;
      justify-content: center;
@@ -31,6 +37,7 @@ header{
 
 .fotos-produtos{
      margin-top: 150px;
+     background-color: aqua;
 }
 
 .foto-principal img{
@@ -95,11 +102,13 @@ header{
      display: flex;
      justify-content: center;
      align-content: center;
+     
 }
 
 .class-information{
      margin-top: 190px;
      margin-left: 100px;
+     background-color:blueviolet;
 }
 
 .class-information h3{
@@ -253,10 +262,54 @@ header{
      display: flex;
      flex-direction: column;
     }
-     
+
+    .img-1{
+     margin-left: 200px;
     }
 
+    .header-direito{
+     margin-right: 80px;
+    }
+     
+    .carrinho-cabeçalho{
+     width: 25px;
+    }
+    }
 
+@media (max-width: 430px){
+     body{
+          margin: 0px;
+          
+          padding: 0px;
+     
+     }
+
+     .container-header{
+          display: flex;
+          justify-content:space-between;
+          margin: 0px;
+          background-color: aqua;
+     }
+
+     .img-principal{
+          width: 500px;
+          height: 500x;
+     }
+
+     .class-information{
+          background-color: rgb(99, 79, 55);
+     
+     }
+}
+
+@media (max-width: 320px){
+     body{
+          background-color: blueviolet;
+          width: 320px;
+          height: 729px;
+          margin: 0px;
+     }
+}
 
 
      
