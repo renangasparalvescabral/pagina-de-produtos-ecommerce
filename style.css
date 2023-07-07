@@ -37,7 +37,7 @@ header{
 
 .fotos-produtos{
      margin-top: 150px;
-     background-color: aqua;
+
 }
 
 .foto-principal img{
@@ -108,7 +108,7 @@ header{
 .class-information{
      margin-top: 190px;
      margin-left: 100px;
-     background-color:blueviolet;
+
 }
 
 .class-information h3{
@@ -237,6 +237,10 @@ header{
      padding-left: 5px;
 }
 
+.text-information-1{
+     display: none;
+}
+
 /*.......Responsive designer...........*/
 @media (max-width: 767px){
     .header-esquerdo a{
@@ -250,6 +254,10 @@ header{
     .header-direito{
      margin-right: 60px;
     }
+
+    .text-information{
+     font-size: 12px;
+}
 
 }
 
@@ -274,37 +282,124 @@ header{
     .carrinho-cabeçalho{
      width: 25px;
     }
-    }
+
+    .text-information-1{
+     font-size: 12px;
+}
+}
+    
 
 @media (max-width: 430px){
      body{
-          margin: 0px;
-          
-          padding: 0px;
-     
+          margin-top: 0px;
+          margin-left: 0px;
+          background-color: white;
      }
 
      .container-header{
           display: flex;
-          justify-content:space-between;
+     
           margin: 0px;
-          background-color: aqua;
+          background-color: rgb(255, 255, 255);
+          margin-right: 408px;
+          background-color: aquamarine;
+     }
+
+     .img-1{
+          margin-left: 410px;
+     }
+
+     .header-direito{
+          margin-right: 0px;
+     }
+
+     .foto-principal img{
+          border-radius: unset;
      }
 
      .img-principal{
-          width: 500px;
-          height: 500x;
+          width: 358px;
+          height: 320px;
+          margin-top: -150px;
+          margin-left: 0px;
+     
      }
 
      .class-information{
-          background-color: rgb(99, 79, 55);
-     
+          margin-top: -14px;
+          margin-left: 0px;
+          margin-right: 15px;
+          padding-left: 20px;
+     }
+
+     .class-information h1{
+          font-size: 30px;
+     }
+
+     .text-information{
+          display: none;
+     }
+
+     .text-information-1{
+          display: initial;
+          font-size: 15px;
+          font-family: 'Kumbh Sans', sans-serif;
+          font-weight: 400;
+          line-height: 20px;
+          color: hsl(240, 1%, 53%);
+     }
+
+     .valor-principal{
+          font-size: 30px;
+     }
+
+     .desconto{
+          font-size: 12px;
+          padding: 2px;
+     }
+
+     .valor-antigo{
+          float: right;
+          margin-right: 35px;
+          margin-top: -56px;
+          font-size: 15px;
+     }
+
+     .numeracao{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .sinal-menos{
+          margin-left: 15px;
+     }
+
+     .sinal-mais{
+          margin-right: 15px;
+     }
+
+     .quantidades{
+          width: 280px;
+          height: 30px;
+          margin-top: -20px;
+          margin-right: 18px;
+     }
+
+     .add-car{
+          margin-top: 10px;
+          margin-bottom: 10px;
+     }
+
+     .btn-addcar{
+          width: 301px;
+          height: 50px;
+          margin-right: 35px;
      }
 }
 
 @media (max-width: 320px){
      body{
-          background-color: blueviolet;
           width: 320px;
           height: 729px;
           margin: 0px;
