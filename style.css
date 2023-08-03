@@ -7,7 +7,6 @@ body{
 header{
      display: flex;
      justify-content: center;
-
 }
 .container-header{
      display: flex;
@@ -18,6 +17,7 @@ header{
      box-sizing: border-box;
      width: 60%;
      min-width: 750px;
+     
  }
 
 /*.............Corpo Esquerdo........*/
@@ -102,7 +102,7 @@ header{
      display: flex;
      justify-content: center;
      align-content: center;
-     
+     width: 90vw;
 }
 
 .class-information{
@@ -289,7 +289,7 @@ header{
 }
     
 
-@media (max-width: 430px){
+@media (max-width: 425px){
      body{
           margin-top: 0px;
           margin-left: 0px;
@@ -298,11 +298,11 @@ header{
 
      .container-header{
           display: flex;
-     
           margin: 0px;
           background-color: rgb(255, 255, 255);
-          margin-right: 408px;
+          margin-right: 420px ;
           background-color: aquamarine;
+     
      }
 
      .img-1{
@@ -399,11 +399,24 @@ header{
 }
 
 @media (max-width: 320px){
-     body{
-          width: 320px;
-          height: 729px;
-          margin: 0px;
+     header{
+          width: 100%;
+          min-width: 320px;
      }
+
+   .img-principal{
+     width: 100vw;
+    }
+
+    .class-information{
+     width: 94vw;
+     background-color: blanchedalmond;
+    }
+
+    .text-information-1{
+     font-size: 13px;
+    }
+
 }
 
 
